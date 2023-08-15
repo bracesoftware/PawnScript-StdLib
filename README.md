@@ -3,6 +3,7 @@
 
 # Features
 ## Shorter keywords
+- Now you can simply use the `std::` keyword wrappers instead of using `new.datatype,...`.
 ```cpp
 std::uint,stduinttest=-23;
 console.rawout.log(stduinttest);
@@ -28,3 +29,35 @@ console.rawout.log(stddoubletest);
 std::char,stdchartest='s';
 console.cout.log(stdchartest);
 ```
+
+## Everything in one place
+- This standard library includes all the language components to avoid using the boring `using` keyword all the time.
+
+Say good bye to:
+```cpp
+using data;
+using console;
+using pawn;
+using system;
+// and many more
+```
+
+And say hello to:
+
+```cpp
+#include:stdlib;
+```
+
+## Return references
+
+- Are you bored of creating a return reference variable each time you need it, now with the **stdlib**, you can simply do this:
+```cpp
+console.println.log("I don't need anything here!") std::intretref; // There are also std::boolretref, strretref, charretref and doubleretref!
+```
+
+## Constants
+- `std::nullstr` - Empty string.
+- `std::nullchar` - Empty character.
+- `std::pi` - PI.
+- `std::euler` - Euler's number.
+- `std::gravacc` - Gravitational acceleration.
