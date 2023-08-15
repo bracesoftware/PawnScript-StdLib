@@ -23,7 +23,7 @@ console.println.log(stdstrtest);
 std::float,stdfloattest=23.243;
 console.rawout.log(stdfloattest);
 
-std::double,stddoubletest=4323.243;
+std::double,stddoubletest=4323.243; // Float and double are simply the same.
 console.rawout.log(stddoubletest);
 
 std::char,stdchartest='s';
