@@ -61,3 +61,7 @@ console.println.log("I don't need anything here!") std::intretref; // There are 
 - `std::pi` - PI.
 - `std::euler` - Euler's number.
 - `std::gravacc` - Gravitational acceleration.
+
+## Call templates
+- `std::writeln` - `console.println.log`
+- `std::writec` - `console.cout.log`
